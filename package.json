@@ -1,0 +1,12 @@
+{
+  "name": "hardhat-project",
+  "dependencies": {
+    "nvm": "^0.0.4"
+  },
+  "start": "react-scripts --openssl-legacy-provider start",
+  "scripts": {
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider; gatsby build"
+  }
+}
+
+  
